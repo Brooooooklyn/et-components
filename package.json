@@ -1,0 +1,27 @@
+{
+  "name": "tbsdk-with-et",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rm -rf www && ./node_modules/.bin/ts-node ./tools/tasks/build.ts && cp ./test/index.html ./www"
+  },
+  "author": "lynweklm@gmail.com",
+  "license": "MIT",
+  "devDependencies": {
+    "browser-sync": "^2.11.2",
+    "et-dependency": "^0.4.0-beta1",
+    "et-template": "^0.4.0-beta7",
+    "file-loader": "^0.8.5",
+    "loader-utils": "^0.2.14",
+    "opn": "^4.0.1",
+    "source-map-loader": "^0.1.5",
+    "ts-loader": "^0.8.1",
+    "ts-node": "^0.7.2",
+    "typescript": "^1.8.9",
+    "typings": "^0.7.12",
+    "webpack": "^1.12.14",
+    "zone.js": "^0.5.9"
+  }
+}
